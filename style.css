@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #021a30;
+    position: relative;
+}
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    gap: 72px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid  rgba(240, 248, 255, 0.23) ;
+    
+}
+
+.ne{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+   border: 1px solid white;
+}
+
+.imgs{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 18px;
+}
+
+.img-2{
+    width: 10px;
+    height: 10px;
+}
+
+.cubo{
+   width: 210px;
+   padding: 0px 0px 0px 0px;
+   border-radius: 10px;
+   margin-top:-10px;
+   margin-right: -35px;
+}
+
+p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 15px 0px 15px 0px;
+}
+
+h1{
+    font-size: 11px;
+    
+}
+
+span{
+    color: rgba(240, 248, 255, 0.361);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: -5px;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h5-1{
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.h5-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: #c4ede997;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.conteudo-text{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 10px 0px 0px 0px;
+    width: 210px;
+}
+
+.div-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #062747;
+    border-radius: 10px;
+    width: 240px;
+    height: 410px;
+    box-shadow: 5px 22px 2px 18px rgba(12, 11, 49, 0.267);
+}
+
+.div-main{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,50%);
+    left:50% ;
+     margin-top: 40px;
+     width: 254px;
+     height: 439px;
+     border-radius: 10px;
+     box-shadow: 5px 2px 8px 18px rgba(12, 11, 49, 0.111);
+ }
+
+footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
